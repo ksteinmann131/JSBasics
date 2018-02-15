@@ -11,5 +11,5 @@ describe("Array Exercise - removeDuplicates()", function(){
     expect(noDubsArray.length).to.eql(5);
     expect(noDubsArray[2]).to.eql(3);
     expect(noDubsArray[4]).to.eql(5);
-  })
+  });
 });

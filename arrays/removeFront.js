@@ -4,7 +4,7 @@
 function removeFront(arr){
   arr.shift();
   return arr;
-};
+}
 
 // DO NOT DELETE
 module.exports = removeFront;

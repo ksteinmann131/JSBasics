@@ -4,7 +4,7 @@
 function addEnd(array, num) {
   array.push(num);
   return array;
-};
+}
 
 
 // DO NOT DELETE

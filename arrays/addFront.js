@@ -4,7 +4,7 @@
 function addFront(array, num){
   array.unshift(num);
   return array;
-};
+}
 
 // DO NOT DELETE
 module.exports = addFront;

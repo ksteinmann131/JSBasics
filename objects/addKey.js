@@ -2,7 +2,9 @@
 // name weight and assigns it a value. Return the object.
 
 var animal;
-var addKey;
+function addKey(obj) {
+  obj.weight = 75;
+}
 
 // DO NOT DELETE
 module.exports = addKey;

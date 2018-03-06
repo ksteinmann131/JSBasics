@@ -4,7 +4,7 @@
 function removeEnd(arr){
   arr.pop();
   return arr;
-};
+}
 
 // DO NOT DELETE
 module.exports = removeEnd;

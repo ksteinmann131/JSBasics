@@ -3,12 +3,12 @@
 // of occurrences of the specified letter within the string.
 
 function countString (string, letter){
-  var count = 0
+  var count = 0;
   string = string.toLowerCase();
   letter = letter.toLowerCase();
   for (var i = 0; i < string.length; i++){
     if (string[i] == letter){
-    count++;
+      count++;
     }
   }
   return count;

@@ -5,7 +5,7 @@ function reverseString(val){
   var reverseArr = arr.reverse();
   var joinArray = reverseArr.join("");
   return joinArray;
-};
+}
 
 // DO NOT DELETE
 module.exports = reverseString;

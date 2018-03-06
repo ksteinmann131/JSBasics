@@ -2,7 +2,9 @@
 // animal object and returns the age.
 
 var animal;
-var findAge;
+function findAge(obj) {
+  return obj.age;
+};
 
 // DO NOT DELETE
 module.exports = findAge;

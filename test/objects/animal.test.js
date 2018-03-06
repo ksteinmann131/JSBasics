@@ -3,7 +3,7 @@ var animal = require('../../objects/animal.js') ;
 
 var expect = chai.expect;
 
-xdescribe('Object Exercise  - Animal', function () {
+describe('Object Exercise  - Animal', function () {
   it('Should have the appropriate keys', function () {
     expect(animal.species).to.not.eql(undefined)
     expect(animal.name).to.not.eql(undefined)

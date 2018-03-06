@@ -3,7 +3,7 @@
 
 function findTwo (arr){
   return arr[2];
-};
+}
 
 // DO NOT DELETE
 module.exports = findTwo;

@@ -12,7 +12,7 @@ function evenOdd (arr){
     }
   }
   return arr;
-};
+}
 
 // DO NOT DELETE
 module.exports = evenOdd;

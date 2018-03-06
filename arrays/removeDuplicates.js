@@ -4,11 +4,11 @@ function removeDuplicates(arr){
   var noDubsArray =[];
   for (i = 0; i < arr.length; i ++) {
     if (noDubsArray.indexOf(arr[i]) == -1){
-      noDubsArray.push(arr[i])
+      noDubsArray.push(arr[i]);
     }
   }
   return noDubsArray;
-};
+}
 
 // DO NOT DELETE
 module.exports = removeDuplicates;

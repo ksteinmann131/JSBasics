@@ -4,9 +4,9 @@
 function sumIt(arr){
   var newArr = arr.reduce(function(a,b){
     return a + b;
-  }); 
+  });
   return newArr;
-};
+}
 
 // DO NOT DELETE
 module.exports = sumIt;
